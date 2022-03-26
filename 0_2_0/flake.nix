@@ -11,6 +11,7 @@
   inputs.src-tor-0_2_0.ref   = "refs/tags/0.2.0";
   inputs.src-tor-0_2_0.owner = "FedericoCeratto";
   inputs.src-tor-0_2_0.repo  = "nim-tor";
+  inputs.src-tor-0_2_0.dir   = "";
   inputs.src-tor-0_2_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
